@@ -1,0 +1,125 @@
+<!-- IPOD'S HTML SHEET! -->
+
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- STYLING SHEET FOR IPOD -->
+	<link rel="stylesheet" type="text/css" href="ipod(CSS).css">
+	<title>ipod</title>
+</head>
+<body>
+
+
+<!-- BACKGROUND OF THE WEB PAGE-->
+<div id="background">
+	
+
+	<!-- ROTATING CONTAINER -->
+  <div id="rotate-container">
+  	
+  	<!-- BODY BOX OF IPOD -->
+  	<div id="box">
+  		
+  		<!-- MENU BAR -->
+  		<div id="menu">
+	 	<ul type="none" style="text-align: center;margin-right: 40px;"><h3>ipod</h3>
+	 	<li>Songs</li>
+	 	<li>Albums</li>
+	 	<li>Artists</li>
+	 	<li>Playlists</li>
+	 	</ul>
+	 	</div>
+  			
+  			<!-- Options inside menu bar -->
+
+  			<!-- Songs Tab -->
+		  	<div id="songs" class="commonUI"><h3>Songs</h3>
+		  		<audio class="playsong" src="Media/Songs/goodlife.mp3"></audio>
+		  		<audio class="playsong" src="Media/Songs/candypaint.mp3"></audio>
+		  		<div id="artist1"><img src="Media/SongsCover/goodlife.jpg" id="firstS"> Good Life</div>
+		  		<div id="artist2"><img src="Media/SongsCover/candypaint.jpg" id="secondS">CandyPaint</div>
+		  		
+		  		<img src="Media/MediaControls/back.png" id="back2" class="back"></div>
+		  	
+		  	<!-- Albums Tab -->
+		  	<div id="albums" class="commonUI"><h3>Albums</h3>
+		  		<img src="Media/AlbumsCover/fof.jpg" id="fof"><br>The Fate of the Furious
+		  		<img src="Media/MediaControls/back.png" id="back3" class="back"></div>
+		  	
+		  	<!-- Artists Tab -->
+		  	<div id="artists" class="commonUI"><h3>Artists</h3>
+		  		<img src="Media/Artists/G-Eazy.jpg" id="firstA"> G-Eazy
+		  		<img src="Media/Artists/postmalone.jpg" id="secondA">PostMalone
+		  		<img src="Media/MediaControls/back.png" id="back4" class="back"></div>
+		  	
+		  	<!-- Playlists Tab -->
+		  	<div id="playlists" class="commonUI"><h3>Playlists</h3>
+		  		<img src="Media/AlbumsCover/fof.jpg" id="firstP"><br>The Fate of the Furious
+		  		<img src="Media/MediaControls/back.png" id="back5" class="back"></div>
+	  	
+	  	<!-- HOME SCREEN SAVER-->
+		<img src="Media/wallpaper.jpg"id="screen">
+		
+		<!-- Unlocking sound -->
+		<audio src="Media/unlock_lock.mp3" id="lock"></audio>
+		
+		<!-- BUTTON TO ENTER THE MAIN MENU -->
+		<div><button id="menuB"></button></div>
+    	
+    	<!-- ROTATABLE WHEEL FOR CHOOSING OPTIONS -->
+    	<div id="rotatable">
+    	
+    		<!-- Button for selecting the desired option -->
+    		<button id="inner"></button>
+    		
+    		<!-- Options inside rotatable wheel -->
+    		
+		    		<!-- Home Button -->
+			    	<div id="home">HOME</div>
+			    	
+			    	<!-- Play Button -->
+			    	<div id="play"><img src="Media/MediaControls/play.png"></div>
+			    	
+			    	<!-- Pause Button -->
+			    	<div id="pause"><img src="Media/MediaControls/pause.png"></div>
+			    	
+			    	<!-- Fast Forward Button -->
+			    	<div id="ff"><img src="Media/MediaControls/forward.png"></div>
+			    	
+			    	<!-- Rewind Buttons -->
+			    	<div id="fr"><img src="Media/MediaControls/rewind.png"></div>
+ 
+
+
+    	</div>
+
+	</div>
+
+  </div>
+
+</div>
+
+<!-- VARIOUS SCRIPTS USED -->
+
+<!-- EXTERNAL LIBRARIES -->
+
+	<!-- JQUERY LIBRARY -->
+	<script src="Scripts/jquery.js"></script>
+
+	<!--REACT ZINGTOUCH LIBRARY  -->
+	<script type="text/javascript" src="Scripts/ReactZingtouch.js"></script>
+
+<!-- MAIN SCRIPT FILE -->
+	<script type="text/javascript" src="Scripts/ipod.js"></script>
+
+
+
+</body>
+</html>
+
+<!-- Made by – 
+Bhuvan Kohli
+bhuvankohli16@gmail.com
+www.linkedin.com/in/bhuvan-kohli-4916911b7
+https://github.com/BhuvanK18
+ -->
